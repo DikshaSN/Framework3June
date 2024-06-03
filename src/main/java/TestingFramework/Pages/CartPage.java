@@ -35,4 +35,8 @@ public class CartPage extends AbstractComponent {
 		return checkpage;
 	}
 
+	public void test(){
+		system.out.prinln("Testing");
+			
+
 }
