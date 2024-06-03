@@ -24,17 +24,17 @@ public class AbstractComponent {
 	WebElement cartButton;
 	
 	public void waitforElementToAppear(By ele) {
-		WebDriverWait wait  = new WebDriverWait(driver,Duration.ofSeconds(30));
+		WebDriverWait wait  = new WebDriverWait(driver,Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(ele));
 	}
 	
 	public void waitforWebElementToAppear(WebElement ele) {
-		WebDriverWait wait  = new WebDriverWait(driver,Duration.ofSeconds(30));
+		WebDriverWait wait  = new WebDriverWait(driver,Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.visibilityOf(ele));
 	}
 	
 	public void waitforWebElementToDisAppear(WebElement ele) throws InterruptedException {
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 	}
 	
 	public CartPage goToCart() {

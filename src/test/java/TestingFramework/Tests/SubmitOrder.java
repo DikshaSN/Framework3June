@@ -37,4 +37,8 @@ public class SubmitOrder extends BaseTest{
 		return new Object[][]{{data.get(0)},{data.get(1)}};
 	}
 
+	@Test
+	public void test1() {
+		ProductPage product = landing.launchApplication("dsk@gmail.com", "Test@123");
+	}
 }
