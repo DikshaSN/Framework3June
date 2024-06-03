@@ -40,5 +40,6 @@ public class SubmitOrder extends BaseTest{
 	@Test
 	public void test1() {
 		ProductPage product = landing.launchApplication("dsk@gmail.com", "Test@123");
+		System.out.println("Testing");
 	}
 }
