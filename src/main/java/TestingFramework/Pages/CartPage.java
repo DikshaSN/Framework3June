@@ -36,7 +36,7 @@ public class CartPage extends AbstractComponent {
 	}
 
 	public void test(){
-		system.out.prinln("Testing");
-			
+		System.out.println("Testing");
+	}	
 
 }
